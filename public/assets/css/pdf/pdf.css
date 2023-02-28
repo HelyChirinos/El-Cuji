@@ -1,0 +1,82 @@
+.logo {
+    height: auto;
+    width: 150px;
+}
+
+h3 {
+    padding-top: 3rem;;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row:after, .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .column-4 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+  }
+   
+  .column-6 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+  }
+  
+  .column-3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+  }
+
+  .column-7 {
+    float: left;
+    width: 70%;
+    padding: 10px;
+  }
+  
+.sub-total{
+    font-weight: bold;
+    border-top-color: black; 
+    border-top-width: 1px; 
+    border-top-style:solid;
+
+}
+
+.show-table{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.total{
+  vertical-align : middle;
+  text-align:center; 
+
+}
+
+th.table>thead>tr>th .total{
+  border-right-color: rgb(221, 221, 221); 
+  border-right-width: 1px; 
+  border-right-style:solid;
+}
